@@ -41,11 +41,11 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "Contoso"
+    title: str = "Malakoff Humanis"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "Start chatting"
-    chat_description: str = "This chatbot is configured to answer your questions"
+    chat_title: str = "Commencer à discuter avec Galen"
+    chat_description: str = "Galen est un agent conversationnel entrainé pour repondre à vos questions sur votre mutuelle santé"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
 
